@@ -44,7 +44,7 @@
 
 * < HP, OS Windows 10 >
 
-* < Браузер Mozilla Firefox  Версия 87 >
+* < Браузер Mozilla Firefox  Версия 87,0 >
 
 * < JetBrains\IntelliJ IDEA Community Edition 2021.1 >
 
@@ -66,4 +66,4 @@
 
 * < JetBrains\IntelliJ IDEA Community Edition 2021.1 >
 
-* < Браузер Mozilla Firefox Версия 87 >
+* < Браузер Mozilla Firefox Версия 87,0 >
