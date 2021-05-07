@@ -1,29 +1,21 @@
 # Отчёт о тестировании *Credit Card Number Validator* 
 
-​
-
 ## Краткое описание
 
-​
 *Начало 05.05.2021.* - *Окончание 05.05.2021* : *Проведено тестирование работы программы "Credit Card Number Validator"*.
 
-​
-
-На тестирование затрачено: < 2 часа.>
-
-​
+На тестирование затрачено:  2 часа.
 
 В результате тестирования выявлены следующие дефекты: 
 
-*Стоит ограничение в приложении на 16 цифр в номере карты*             
-https://github.com/frantzev/Introduction-to-Java/issues/1#issue-876879475
+            
+[При проверке валидности банковских карт на номерах отличных от шестнадцати цифр в приложении выдается ответ FAIL](https://github.com/frantzev/Introduction-to-Java/issues/1#issue-876879475)
 * Visa: *4745746400870331441*
 * Discover: *6011704691798293821*
 * Diners Club - Carte Blanche:
   1. *30456049763673*
   2. *30481043955786*
   3. *30051699396583*
-* MasterCard: *5491523557012263*
 * JCB: *3534851750234258551*
 * Diners Club - International:
   1. *36200136950973*
@@ -34,36 +26,28 @@ https://github.com/frantzev/Introduction-to-Java/issues/1#issue-876879475
   2. *373309242208258*
   3. *376803293942333*
 
-​
-
 ## Описание процесса тестирования
-
-​
 
 В процессе тестирования использовались следующие артефакты:
 
-* < HP, OS Windows 10 >
+* HP, OS Windows 10 
 
-* < Браузер Mozilla Firefox  Версия 87,0 >
+* Браузер Mozilla Firefox  Версия 87,0 
 
-* < JetBrains\IntelliJ IDEA Community Edition 2021.1 >
+* JetBrains\IntelliJ IDEA Community Edition 2021.1 
 
-* < Генератор номеров кредитных карт freeformatter.com>
+* Генератор номеров кредитных карт freeformatter.com
 
+В качестве тестовых данных использовались данные номера кредитных карт https://www.freeformatter.com/credit-card-number-generator-validator.html :
 
+* Программа зупускается в JetBrains\IntelliJ IDEA Community Edition 2021.1  
 
-В качестве тестовых данных использовались данные < Номера кредитных карт https://www.freeformatter.com/credit-card-number-generator-validator.html >:
-
-* < Программа зупускается в JetBrains\IntelliJ IDEA Community Edition 2021.1  >
-
-* < Прогарамма определяет валидность номера банковской карты >
-
-​
+* Прогарамма определяет валидность номера банковской карты 
 
 Тестирование производилось в следующем окружении:
 
-* <Windows 10,версия 1903, сборка 18362.476, 64 - разрядная.>
+* Windows 10,версия 1903, сборка 18362.476, 64 - разрядная.
 
-* < JetBrains\IntelliJ IDEA Community Edition 2021.1 >
+* JetBrains\IntelliJ IDEA Community Edition 2021.1 
 
-* < Браузер Mozilla Firefox Версия 87,0 >
+* Браузер Mozilla Firefox Версия 87,0 
